@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Jay's Notes</title>
+  </head>
+  
+  <body>
+    <h1>General Notes</h1>
+
+    <h3>Important Terms</h3>
+    <div>
+        <p><b>html</b> = HyperText Markup Language, the primary
+        coding language and main type of document of
+        the Internet</p>
+        <p><b>http</b> = Hypertext Transfer Protocol, the method
+        by which a browser (at the direction of a computer)
+        requests html files from a server</p>
+        <p><b>elements</b> are the basic building blocks of html
+        code; most are further customized with tags and attributes</p>
+    </div>
+
+    <h3>Basic Concepts</h3>
+    <div>
+      <p><b>The Web</b> is a vast network of <b>tubes</b>. Actually, links.
+        Pages linked to each other form the Internet. Basic
+        pages formed from html documents and text contain more
+        complex files such as images, audio and video.</p>
+      <p><b>html</b> is a language for building webpages out of boxes, or blocks.
+        The blocks are usually made of smaller blocks, and painted in different
+        ways, and they may even have contents of their own, but the most basic
+        piece of a page will always be a block. Pages are built out of painted
+        blocks and then connected by links. When turning a page concept into
+        html a designer will often break the concept down into the most basic
+        blocks, or "boxify" it, to visualize the underlying structure and then
+        attack it in pieces.</p>
+      <p>Computers are <b>dumb</b>. While normal conversation allows for a
+        fair degree of ambiguity, relying on the listener to use context
+        clues and their own knowledge to understand your meaning,
+        <span style="color:#ff0000">a computer will interpret your language
+        as literally as possible.</span> This is the source of many issues
+        between programmers and computers.</p>
+      <p>Me[Computer]Browser ---> (((THE INTERNET))) --HTTP-> Server</p>
+      <p>In html, <b>whitespace</b> such as extra spaces and new lines will be
+        condensed when the code is actually rendered. This is the reason
+        line breaks are used.</p>
+    </div>
+
+    <h3>Tag Basics</h3>
+    <div>
+      <p><b>First rule of tag club:</b> An unclosed tag will mark up everything after the opening tag.</p>
+      <p><b>Second rule of tag club:</b> IT IS NOT IMPORTANT TO REMEMBER THE
+        ATTRIBUTES OF EVERY TAG. There are too many tags and attributes
+        for remembering all of them to be practical. When developing in
+        html, it's appropriate to use online resources such as <a href="http://www.w3schools.com/">
+        W3Schools</a> or the <a href="https://developer.mozilla.org/en-US/">
+        Mozilla Developer Network.</a></p>
+      <p><b>b</b> is a tag for <b>bolding</b> text; <b>em</b> is a tag to
+        <em>emphasize</em> text with italics.</p>
+      <p><b>a</b> is an anchor tag, for making <a href="https://www.udacity.com">links</a>.</p>
+      <p><b>href</b> is an attribute of the anchor tag; the value
+        should be the URL of the link.</p>
+      <p><b>img</b> is the <img
+        src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRK8dRnT20J_N9reoSkNzqt7h-IBNmX9nsohI9TH-LuFPzDIUqIkA"
+        alt="This is just some classic tomfoolery.">
+        tag; <b>src</b> is an attribute for the source of the image;
+        <b>alt</b> is an attribute for alt text, which will load if
+        the image does not.</p>
+      <p>(img is a <b>void tag</b>, or a tag that has no content and
+        therefore needs no closing tag)</p>
+      <b>br</b> is a break tag, to break up
+        lines of text.<br>
+      <p>Text can also be broken up with <b>p</b>, the
+        paragraph tag; p <b>wraps</b>, so it needs
+        content and a closing tag.</p>
+      <p>While br is simply ending a line,
+        p is creating a whole new element
+        which can have its own attributes like
+        height (a <b>block tag</b>).</p>
+      <p><b>span</b> and <b>div</b> create container elements,
+        with div creating a box and span creating an inline element.These tags
+        are useful for assigning a css <b>class</b> to text, making it easier to
+        add character to your page.</p>
+    </div>
+
+    <h1>HTML Documents</h1>
+    <div>
+      <p>Doctypes in html used to be hellish; html5
+        has simplified it a great deal. Now the doctype
+        html is sufficient for any html document.</p>
+      <p>In an actual html document, the header will contain
+        things like metadata, css and the title of the page.</p>
+      <p>The actual content of the document will be in the
+        body section, sometimes broken up under different headings.</p>
+    </div>
+
+    <h1>Code Structure</h1>
+    <div>
+      <p>A new indent signals the beginning of a new
+        idea, but a new idea will <em>increase</em>
+        the indentation level, decreasing it when the
+        idea is complete.</p>
+      <p>The doctype declares what language the browser
+        should parse the document in, in this case html.</p>
+      <p>The html tag opens the actual code of the document,
+        under which there will be a header, a body and
+        a closing html tag.</p>
+    </div>
+
+  </body>
+</html>
